@@ -1,0 +1,43 @@
+.nav-item:hover {
+              transition-duration: .4s;
+              background-color: rgb(228, 143, 208);
+              border-radius: 10px;
+
+}
+
+.nav-item {
+              /* text-decoration: underline; */
+              margin-right: .5rem;
+}
+
+.carousel-item {
+              max-height: calc(90vh - 88px);
+              
+}
+
+.carousel-item h5 {
+              text-shadow: 3px 3px 5px black;
+}
+
+.carousel-item p {
+              text-shadow: 3px 3px 5px black;
+}
+
+.carousel-indicators button{
+              background-color: crimson !important;
+              height: .6rem !important ;
+              margin-bottom: -1.6rem;
+}
+
+section#instructors .card{
+              transition: all .5s;
+}
+
+section#instructors .card:hover{
+              transform: scale(1.08);
+}
+
+section#instructors .socials i:hover{
+              opacity: 0.5;
+}
+
