@@ -1,8 +1,7 @@
 .nav-item:hover {
               transition-duration: .4s;
-              background-color: rgb(228, 143, 208);
+              background-color: rgb(182, 94, 161);
               border-radius: 10px;
-
 }
 
 .nav-item {
