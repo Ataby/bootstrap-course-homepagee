@@ -1,4 +1,4 @@
-.nav-item:hover {
+.collapse .nav-item:hover {
               transition-duration: .4s;
               background-color: rgb(182, 94, 161);
               border-radius: 10px;
@@ -40,3 +40,24 @@ section#instructors .socials i:hover{
               opacity: 0.5;
 }
 
+section#students img {
+max-width: 500px;
+min-width: 200px;
+}
+
+section#courses a:hover{
+              background-color:rgba(255, 193, 7, 1.0) ; 
+}
+
+
+section#students button{
+              background-color: crimson;
+              border-radius: 8px;
+              width: 35%;
+              height: auto;
+              border: none;
+}
+section#students a{
+              color: white;
+              text-decoration: none;
+}
