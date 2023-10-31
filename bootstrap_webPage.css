@@ -106,3 +106,8 @@ text-shadow: 1px 1px 5px white;
 #contact a:hover{
               color: blue !important ;
 }
+
+footer i:hover {
+              color: white !important;
+              transition-duration: .3s !important;
+}
