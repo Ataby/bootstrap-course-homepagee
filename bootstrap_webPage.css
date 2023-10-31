@@ -10,8 +10,7 @@
 }
 
 .carousel-item {
-              max-height: calc(90vh - 88px);
-              
+              max-height: calc(90vh - 88px);         
 }
 
 .carousel-item h5 {
@@ -40,9 +39,17 @@ section#instructors .socials i:hover{
               opacity: 0.5;
 }
 
+#instructors h2{
+              text-shadow: 1px 1px 5px white;
+}
+
 section#students img {
 max-width: 500px;
 min-width: 200px;
+}
+
+#students h2{
+              text-shadow: 1px 1px 5px white;         
 }
 
 section#courses a:hover{
@@ -56,8 +63,46 @@ section#students button{
               width: 35%;
               height: auto;
               border: none;
+              text-shadow: 1px 1px 5px black;
 }
 section#students a{
               color: white;
               text-decoration: none;
+}
+
+section#courses button{
+              background-color: rgb(255, 193, 7);
+              color:white; 
+              font-weight: 600;
+              text-shadow: 1px 1px 5px black;
+}
+
+section#courses button:hover {
+background-color: white;
+color: rgb(255, 193, 7);
+text-shadow: none;
+}
+
+section#courses button {
+              align-items: center;
+              }
+
+#courses h2{              
+text-shadow: 1px 1px 5px white;
+}
+
+#courses .nav-link.active{
+              background-color: white;
+              color: rgb(255, 193, 7);
+              text-shadow: none;
+              font-weight: 700;
+}
+
+#contact h2{
+              font-weight: 600;
+              text-shadow: 1px 1px 5px white;
+}
+
+#contact a:hover{
+              color: blue !important ;
 }
